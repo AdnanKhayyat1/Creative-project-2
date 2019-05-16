@@ -1,0 +1,61 @@
+.column {
+    
+    padding: 100px;
+    float: right;
+    width: 33.33%;
+  }
+  body{
+      background-color: pink;
+  }
+  
+  img{
+    object-fit: cover;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    position: absolute;
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#form form{
+    margin: 50px;
+}
+#form p{
+    color: white;
+}
+#form{
+    background-color: #343A40;
+    font-size: 1em; 
+    border: solid;
+    margin: 100px;
+    text-align: center;
+}
+#error{
+    text-align: center;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Random{
+    font-size: 1em; 
+    border: solid;
+    margin: 100px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343A40;
+    color: white;
+    text-align: center;
+ }
